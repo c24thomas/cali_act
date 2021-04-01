@@ -1,4 +1,5 @@
 # Problem Statement
+
 ## This project aims to identify the best- and worst-performing California school districts on the ACT and SAT for 2019. The insights gleaned from this project will enable the state of California to not only direct resources to the districts in need, but also identify possible reasons for the disparities in performance.
 
 
@@ -50,8 +51,8 @@
 |**population_density**|*float*|Cali County Income|County population density|
 |**median_household_income**|*float*|Cali County Income|County median household income|
 
-## Based on my exploration of the data, I can conclude the following:
--
+## Based on our exploration of the data, we can conclude the following:
+
 #### The three worst-performing counties on the ACT: 
 |**County**|**Median Income**|**Percent ACT scores over 21**|
 |-|-|-|
@@ -66,7 +67,7 @@
 |Merced|43,066|25.84|
 |Glenn|40,106|26.33|
 
--
+
 #### The three worst-performing districts on the ACT: 
 |**District**|**County**|**Median Income**|**Percent ACT scores over 21**|
 |-|-|-|-|
@@ -81,7 +82,7 @@
 |Williams Unified|Colusa|50,503|0.00|
 |Firebaugh-Las Deltas Unified|Fresno|45,201|5.95|
 
--
+
 #### The three best-performing counties on the ACT: 
 |**County**|**Median Income**|**Percent ACT scores over 21**|
 |-|-|-|
@@ -96,7 +97,7 @@
 |Mariposa|50,560|72.22|
 |Marin|91,529|68.74|
 
--
+
 #### The three best-performing districts on the ACT: 
 |**District**|**County**|**Median Income**|**Percent ACT scores over 21**|
 |-|-|-|-|
@@ -111,4 +112,8 @@
 |San Marino Unified|Los Angeles|55,870|91.67|
 |Los Gatos-Saratoga Joint Union High|Santa Clara|93,854|91.43|
 
+# Conclusion
+
 ### Our analysis has identified the most and least successful counties and districts. We have discovered that there are no meaningful correlations with test success and any other data point, save household income. The correlation between median household income and success on these tests was (~34%).
+
+
